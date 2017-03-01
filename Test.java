@@ -2,8 +2,7 @@ package objEqu;
 
 class Dog{
 	private int weight;
-	private int height;
-	
+	private int height;//The instance variables become private, which can not be visited by other method directly.封装的体现	
 	public void setWeight(int a){
 		weight = a;
 	}
